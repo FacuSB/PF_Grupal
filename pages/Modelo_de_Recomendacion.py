@@ -88,8 +88,8 @@ def obtener_info_usuario(user_id, top_n=3):
 available_ids = df_combined['user_id'].unique()
 
 # Si df_combined es grande, puedes mostrar solo 100 IDs aleatorios para seleccionar
-random.shuffle(available_ids)
-available_ids = available_ids[:min(len(available_ids), 100)]
+# random.shuffle(available_ids)
+available_ids = available_ids[:min(len(available_ids), 200)]
 
 # Mostrar select box con los IDs de usuario disponibles
 
