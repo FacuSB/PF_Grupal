@@ -12,7 +12,7 @@ import random
 #streamlit run Desicion_Inversion.py
 #python -m streamlit run Decisión_Inversion.py
 
-df_combined = pd.read_parquet("pages\modeloml2.parquet") 
+df_combined = pd.read_parquet("./pages/modeloml2.parquet") 
 vectorizer = TfidfVectorizer()
 business_categories_matrix = vectorizer.fit_transform(df_combined['categories'])
 
