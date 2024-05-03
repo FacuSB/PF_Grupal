@@ -1,1 +1,2 @@
 ETL.ipynb filter=lfs diff=lfs merge=lfs -text
+ModeloML2/modeloml2.csv filter=lfs diff=lfs merge=lfs -text
